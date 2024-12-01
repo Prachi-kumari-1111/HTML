@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prachi da dhaaba</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+
+        }
+        #navlist{
+            padding:15px;
+            list-style: none;
+            font-size: 2.6rem;
+            display:flex;
+            justify-content: space-around;
+            /* margin-left: 15px;
+            margin-right: 15px; */
+            align-items: center;
+            width:100%;
+        }
+        .container{
+            height:100%;
+            width:100%;
+            overflow-x:none;
+            background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 19%, #ffffff 39%, #ffffff 60%, #ffffff 80%, #ffffff 100%);
+
+        }
+        .navcontainer{
+            width:100%;
+            /* background-color:rgb(82, 156, 172); */
+            background-color: #023e63;
+background-image: linear-gradient(160deg, #023e63 0%, #80D0C7 100%);
+
+            min-height: 80px;
+            justify-content: center;
+            display:flex;
+            align-items: center;
+            position:relative;
+
+        }
+        #navlogo{
+            font-size: 2.9rem;
+            color:white;
+        }
+        nav{
+            width:100%;
+            overflow-x: none;
+            padding-right:2rem;
+        }
+        a{
+            text-decoration: none;
+            color:azure;
+        }
+        #navitem{
+            display:flex;
+            gap:30px;
+        }
+        .footerbox{
+            background-color: #023e63;
+background-image: linear-gradient(160deg, #023e63 0%, #80D0C7 100%);
+
+            text-align: center;
+            width:100%;
+            min-height:40px;
+
+        }
+        .footerbox p{
+             color:azure;
+             font-size: 2rem;   
+        }
+        .contentbox{
+            width:60%;
+            margin:auto;
+            /* border:2px solid black; */
+            background-color: white;
+            display:flex;
+            flex-direction: column;
+            gap:100px;
+            padding:3rem;
+            box-shadow: 0px 0px 30px black;
+        }
+        .item{
+            display:flex;
+            justify-content: space-around;
+            align-items:center;
+        }
+        .rightbox{
+            position:relative;
+            overflow:hidden;
+            transition:all 0.3s linear 0s;
+        box-shadow: 1px 1px 10px black;
+        border-radius:20px;
+        }
+        .rightbox img{
+            height: 325px;
+            border-radius: 20px;
+            transition:all 0.6s linear 0s;
+        }
+        .rightbox:hover{
+            transform:scale(1.1);
+        }
+        
+        .leftbox{
+            display:flex;
+            flex-direction:column;
+            gap:20px;
+        }
+        .leftbox h2{
+            font-size: 2rem;
+        }
+        .ingbox{
+            font-size:1.4rem;
+        }
+        .recipebox{
+            font-size:1.1rem;
+        }
+        .rightbox .overlay{
+        position:absolute;
+       top:0;
+       left:0;
+       width:100%;
+       height:100%;
+       border-radius: 20px;
+       background-color:rgba(36, 34, 34, 0.713);
+       opacity:0;
+       display:flex;
+       align-items: center;
+       justify-content: center;
+       transition:all 0.3s linear 0s;
+}
+.rightbox .overlay span{
+    color:white;
+    font-size: 1.2rem;
+}
+ .rightbox:hover .overlay {
+ opacity:1;
+  }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+        <div class="navcontainer">
+     <nav>
+          <ul id="navlist">
+     <li>
+    <p id="navlogo">Prachi da Dhabba</p>
+         </li>
+                <li>
+                      <div id="navitem">
+                          <a href="#">Home</a>
+                           <a href="#">Contact</a>
+                            <a href="#">About</a>
+                             </div>
+                        </li>  
+                   </ul>    
+              </nav>
+         </div>
+</header>
+<main>
+        <div class="contentbox"> 
+            <!-- item 1 -->
+                 <section>
+                         <div class="item">
+             <div class="leftbox">
+                 <!-- <heading> -->
+                    <h2>Gulab Jamun</h2>
+                    <div>
+                        <h2 class="ingbox">Ingredients</h2>
+                        <ul>
+                            <li>Sugar</li>
+                            <li>Bread</li>
+                            <li>Oil</li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h2>Recipe</h2>
+                    <ol class="Recipebox">
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, sequi!</li>
+                        <li>Lorem ipsum dolor sit amet consectetur.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                        <li>Lorem ipsum dolor sit.</li>
+                    </ol>
+                    </div>
+                     </div>
+                    <div class="rightbox">
+                        <img 
+                        src="gulab-jamun.webp"/>
+                        <div class="overlay">
+                                <span>Click here to Buy</span>
+                          </div>
+                    </div>
+            </div>
+      </section>
+
+
+
+               <section>
+                <div class="item">
+    <div class="leftbox">
+
+        <!-- <heading> -->
+           <h2>Kaju Barfi</h2>
+           <div>
+               <h2>Ingredients</h2>
+               <ul>
+                   <li>Sugar</li>
+                   <li>Bread</li>
+                   <li>Oil</li>
+               </ul>
+           </div>
+           
+           <div>
+               <h2>Recipe</h2>
+           <ol>
+               <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, sequi!</li>
+               <li>Lorem ipsum dolor sit amet consectetur.</li>
+               <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+               <li>Lorem ipsum dolor sit.</li>
+           </ol>
+           </div>
+            </div>
+           <div class="rightbox">
+            <img 
+            src="kajubarfi.webp"/>
+
+                    </div>
+      </section>
+      </div>
+    </main>
+    <footer>
+        <div class="footerbox">
+            <p>
+                copyright  code &#169; Prachi da Dhaaba Pvt Ltd 2024 All Rights Reserverd
+             </p>
+        </div> 
+    </footer>
+           
+        
+    </div>
+    
+</body>
+</html>
+
