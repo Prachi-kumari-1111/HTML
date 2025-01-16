@@ -45,7 +45,7 @@ nav{
     background-color: rgba(22,238,238,0.887);
 }
 
-@media(max-width:900px)
+@media(max-width:800px)
 {
     .Responsive1{
       flex-direction: column;
@@ -57,7 +57,7 @@ nav{
 }
 }
 
-@media(max-width:900px)
+@media(max-width:800px)
 {
     .Responsive2{
       flex-direction: column;
