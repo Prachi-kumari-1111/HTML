@@ -1,0 +1,190 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  h1, h2, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #f8f9fa;
+  }
+  
+  .navbar nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .navbar nav ul li {
+    margin: 0;
+  }
+  
+  .navbar nav ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .main-buttons button {
+    margin-left: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .main-buttons .sign-in {
+    background-color: transparent;
+    border: 1px solid #007bff;
+    color: #007bff;
+  }
+  
+  .main-buttons .sign-up {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+  }
+
+  /* Hero Section */
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: #eef4ff;
+  }
+
+  .hero-content {
+    max-width: 50%;
+  }
+  
+  .hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-content p {
+    margin-bottom: 1.5rem;
+    color: #555;
+  }
+  
+  .hero-content .buttons button {
+    margin-right: 1rem;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .hero-content .start-learning {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .hero-content .sat-bootcamps {
+    background-color: #fff;
+    border: 1px solid #007bff;
+    color: #007bff;
+  }
+  
+/* footer */
+
+  .footer {
+    background-color: #f5f7fa;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    gap: 20px;
+  }
+  
+  .left-section {
+    flex: 2;
+  }
+  
+  .intro-text {
+    font-size: 14px;
+    color: #6c757d;
+    margin-bottom: 10px;
+  }
+  
+  .highlight {
+    font-weight: bold;
+    color: #2a8dba;
+  }
+  
+  .left-section h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .about-btn {
+    padding: 10px 20px;
+    background-color: #2a8dba;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .about-btn:hover {
+    background-color: #217ca3;
+  }
+  
+  .right-section {
+    flex: 1.5;
+  }
+  
+  .founder-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .founder-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .stats div {
+    text-align: center;
+  }
+  
+  .stats p {
+    margin: 5px 0;
+  }
+  
+  .logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logos img {
+    max-width: 80px;
+    max-height: 40px;
+  }
+  
+  
