@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer Example</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        .footer {
+            background-color: #3b82f6;
+            color: white;
+            padding: 40px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .footer .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            width: 100%;
+            max-width: 1200px;
+        }
+        .footer .column {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .footer h4 {
+            margin-bottom: 10px;
+        }
+        .footer a {
+            color: white;
+            text-decoration: none;
+            margin: 5px 0;
+            text-align: center;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        .footer .bottom-links {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .footer .bottom-links a {
+            margin: 0 10px;
+        }
+        .footer .social-icons {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .footer .social-icons a {
+            margin: 0 10px;
+            color: white;
+            font-size: 20px;
+        }
+        .footer .logo {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .footer .logo img {
+            width:10px;
+            justify-content: space-evenly;          /* Adjust the size as needed */
+        }
+    </style>
+</head>
+<body>
+    <footer class="footer">
+        <div class="container">
+            <div class="column">
+                <h4>ABOUT</h4>
+                <a href="#">About Us</a>
+                <a href="#">Partnerships</a>
+                <a href="#">Roadmap</a>
+                <a href="#">Careers</a>
+                <a href="#">Donate</a>
+            </div>
+            <div class="column">
+                <h4>TUTORING</h4>
+                <a href="#">Peer Tutoring Benefits</a>
+                <a href="#">Get Certified</a>
+                <a href="#">Become a Tutor</a>
+                <a href="#">Session Safety Measures</a>
+            </div>
+            <div class="column">
+                <h4>COMMUNITY</h4>
+                <a href="#">Blog</a>
+                <a href="#">Schoolhouse Stories</a>
+            </div>
+            <div class="column">
+                <h4>RESOURCES</h4>
+                <a href="#">Brand Resources</a>
+                <a href="#">Help Desk</a>
+            </div>
+        </div>
+        <div class="bottom-links">
+            <a href="#">© Schoolhouse.world</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Trust & Safety</a>
+            <a href="#">Press</a>
+        </div>
+        <!-- <div class="social-icons">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div> -->
+        <div class="logo">
+            <img src="path-to-logo-image.png" alt="Logo">
+            <img src="path-to-logo-image.png" alt="Logo">
+            <img src="path-to-logo-image.png" alt="Logo">
+            <img src="path-to-logo-image.png" alt="Logo">
+
+        </div>
+    </footer>
+</body>
+</html>
