@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+       
+        form {
+            width:300px;
+        }
+        input{
+            margin:5px;
+        }
+        h1,p{
+            text-align: center;
+        }
+        form{
+            margin:auto;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     </body>
+    
+    <h1>Registration Form</h1>
+    
+    
+    <p>Please fill out this form with required the information</p>
+    <form action="server URL"
+    <fieldset>
+        <label for="Enter your First Name"><h4>Enter Your First name:</h4></label>
+        <input type="text" id="Firstname" name="firstname" required>
+        <label for="Enter your Lastname"><h4>Enter Your Lastname:</h4></label>
+        <input type="text" id="Lastname" name="lastname" required>
+        <label for="create a new Password"><h4>create a new Password:</h4></label>
+        <input type="Password" id="Password" name="Password" min="8" max="20"required>
+        <label for="Number"><h4>Number:</h4></label>
+        <input type="text" id="Number" name="Number"required>
+        <label for="Account type"><h4>Account type:</h4></label>
+        <input type="radio" id="personal" name="personal" required>personal
+        <input type="radio" id="Business" name="Business" required>Business
+        <input type="radio" id="Other" name="Other" required>Other
+        <label for="date"><h4>Date:</h4></label>
+        <input type="date" id="birthday" name="birthday"required><br><br>
+        <label for="file>"><h4>upload a profile picture</h4></label><br>
+        <input type="file" id="upload a profile picture" name="upload a profile picture"required>
+        
+        <input type="Submit" value="submit">
+        </fieldset>
+</body>
+</html>
