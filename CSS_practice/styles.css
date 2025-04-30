@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.9;
+    color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #0074d9;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Header Styles */
+  header {
+    background: #f9f9f9;
+    padding: 10px 10px;  
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  nav a {
+    margin-left: 15px;
+    color: #555;
+  }
+  
+  nav a.active {
+    font-weight: bold;
+  }
+  
+  /* main Section */
+  .main {
+    text-align: center;
+    margin: 40px 20px;
+  }
+  
+  .main h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .main .version {
+    font-size: 1rem;
+    color: #999;
+  }
+  
+  .main h2 {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .main .highlight {
+    color: #0074d9;
+  }
+  
+  .install-command {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    display: inline-block;
+    padding: 20px 40px;
+    font-family: monospace;
+    font-size: 1rem;
+  }
+  
+  /* Highlight Box */
+  .highlight-box {
+    background: #fff8e1;
+    border: 1px solid #fdd835;
+    padding: 40px 40px;
+    margin: 90px;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  
+  /* Features */
+  .features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .feature {
+    flex: 1;
+    min-width: 200px;
+    max-width: 300px;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .feature h3 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    color: #444;
+  }
+  
+  .feature p {
+    font-size: 0.9rem;
+  }
+  footer p {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #666;
+    justify-content:space-between;
+    text-align: left;
+  } 
+  footer {
+    background: #f9f9f9;
+    padding: 30px;
+    text-align: center;   
+  }
+   .info{
+  display: flex;
+  height:60px;
+  width:50px;
+  }
+.local{
+  display: flex;
+}
+.soft{
+  margin: 0;
+  padding: 0;
+  right: 100px;
+  float: right;
+}
+p,.target-express{
+  font-size:40px;
+  display:flex;
+  font-weight:20;
+
+}
